@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Prompt;
+}
+
+/* navbar */
+.navbar{
+    background-image: linear-gradient(180deg, #3A452F, #B1BE98);
+    display: flex; 
+    justify-content: space-between;
+    position: relative; 
+}
+.nav__logo{
+    padding-left: 40px;
+    padding-top: 10px;
+    filter: drop-shadow(0.1em 0.1em 0.09em rgba(0, 0, 0));
+}
+.nav__list{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.nav__itemv{
+    padding-right: 30px;
+    font-size: 18px;
+    color:#F0D487;
+    text-decoration: none;
+}
+.nav__item {
+    padding-right: 30px;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+
+.nav__itemv:hover{
+    color:#d7a61e;
+    font-weight: bold;
+}
+
+.nav__item:hover {
+    color:#12150f;
+    font-weight: bold;
+}
+
+
+/* header */
+
+.header{
+    height: 600px;
+    background-image: url(image/container-bw.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.header__title{
+    padding-left: 50px;
+    margin-top:0;
+    font-size: 115px;
+    color:#EAC174;
+    /* filter: drop-shadow(0.02em 0.02em 0.02em rgba(0, 0, 0)); */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* container1 */
+.container1{
+    background-color:#3A452F;
+    min-height: 67vh;
+    
+}
+.c1__wrapper{
+    /* width: 800px; */
+    background: #3A452F;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.c1__wrapper1, .c1__wrapper2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.c1__row{
+    padding: 10px;
+    display: flex;
+}
+
+.c1__form-label{
+    min-width: 191px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.c1__form-input, .c1__form-input-op, .c1__form-input-pr{
+    width: 60%;
+    height: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 1);
+    /* border-radius: 10px; */
+    color:white;
+    font-size: 20px;
+    padding: 20px 45px 20px 20px;
+    flex: 0.8;
+}
+
+
+.c1__form-input::placeholder{
+    color:white;
+    opacity: 0.6;
+}
+
+.c1__form-input option{
+    color:#12150f;
+}
+.c1__form-input-pr option{
+    color: #12150f;
+}
+.c1__form-input-op option{
+    color: #12150f;
+}
+
+
+.c1__button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.c1__btn{
+    width: 15%;
+    height: 60px;
+    background-color: #F0D487;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10 px rgba(0,0,0,.1);
+    cursor:pointer;
+    color:#3A452F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.c1__btn:hover{
+    opacity: 1;
+}
+.c1__bonus{
+    align-items: right;
+    text-align: right;
+}
+.c1__t{
+    color:aliceblue;
+    font-size: 18px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+.c1__t:hover{
+    color:white;
+    font-weight: bold;
+}
+
+
+/* container2 */
+.container2{
+    min-height: 30vh;
+    background-color:#69785B;
+}
+
+.c2__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.c2__w1-t1{
+    font-size: 22px;
+    color:#3A452F;
+    font-weight: bold;
+}
+
+.c2__w1-t{
+    font-size: 17px;
+    color: #3A452F;
+}
+.c2__w1-t a{
+    color: white;
+}
+.c2__address{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+.c2__address-h4{
+    font-size: 16px;
+    padding-left: 75px;
+}
+.c2__cacdot{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3A452F;
+    padding-left: 72px;
+    
+}
+.c2__cacdot:hover{
+    color:#12150f;
+    font-weight: bold;
+}
+
+
+/* footer */
+.footer {
+    height:250px;
+    background-color: #3A452F;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__logo {
+    padding-top: 20px;
+}
+.footer__div1-text {
+    margin-top:0;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 0;
+}
+.footer__div2{
+    margin-top: 30px;
+}
+.footer__div2-text{
+    padding-left: 0;
+}
+.footer__div2-healing {
+    color: #F0D487;
+    font-size: 26px;
+}
+.footer__div2-text1 {
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.footer__div2-text1:hover{
+    opacity: 1;
+    color: white;
+}
